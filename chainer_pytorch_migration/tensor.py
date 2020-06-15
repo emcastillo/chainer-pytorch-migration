@@ -46,7 +46,7 @@ def astensor(array):
         view are gone.
 
     Note:
-        aaIf the array has negative strides, a copy is made
+        If the array has negative strides, a copy is made
     """
     if array is None:
         raise TypeError('array cannot be None')
